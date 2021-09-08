@@ -1,11 +1,4 @@
 
-let edad = prompt('Cuantos años tenes?');
-
-let edadANumero = parseInt(edad);
-
-if (edadANumero >= 18){
-    console.log('Podes pasar');
-} else {
-    console.log('No podes pasar, sos menor de 18');
+for (let i= 0; i <=10; i++){
+    console.log('Esta es la vuelta numero: ' i);
 }
-
