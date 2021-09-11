@@ -13,9 +13,7 @@ const resta = (a, b) => a - b;
 let gananciaPlazoFijo = (x) => ((x * 0.37) / 12);
 
 
-gananciaPlazoFijo(ahorrosMesAnterior);
-
-let plataQueIngresa = suma (sueldo, (suma (ahorrosMesAnterior, gananciaPlazoFijo)));
+let plataQueIngresa = suma (sueldo, (suma (ahorrosMesAnterior, gananciaPlazoFijo(ahorrosMesAnterior))));
 let plataQueEgresa = suma (gastosFijos, gastosVariables);
 
 let calculoAhorroMes = resta(plataQueIngresa, plataQueEgresa);
